@@ -35,7 +35,7 @@ function Card({ icon, heading, paragraph, color = "orange" }: Props) {
       </div>
       <button
         type="button"
-        className={`mt-8 w-fit rounded-3xl bg-userVeryLightGray px-8 py-3 text-userBrightOrange md:mt-20 ${buttonColorVariants[color]}`}
+        className={`mt-8 w-fit rounded-3xl border-2 border-userVeryLightGray bg-userVeryLightGray px-8 py-3 text-userBrightOrange hover:bg-inherit hover:text-userVeryLightGray md:mt-20 ${buttonColorVariants[color]}`}
       >
         Learn More
       </button>
